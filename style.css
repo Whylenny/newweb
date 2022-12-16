@@ -1,0 +1,54 @@
+body
+{
+ background-color: lightblue;
+}
+.back 
+{
+ position: fixed;
+  top: 10;
+  right: 10px;
+  width: 20px;
+ color: black;
+}
+#body2 {
+ /*background-image: url("https://i.postimg.cc/sxdw3jRt/IMG-1559.jpg");
+ background-size:100%;
+ background-repeat: no-repeat;*/
+ text-align: center;
+}
+h1 {
+ color: red;
+ background-color: lightgreen;
+ text-align: center;
+}
+.center 
+{
+  
+}
+h2 {
+ color: green;
+ text-align: center;
+}
+
+li 
+{
+ text-align: left;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.tile { 
+ width: 30%;
+  height: auto;
+  margin: 3px;
+}
+.show
+{
+ display: none;
+}
+.under 
+{
+ text-decoration: underline;     
+ text-decoration-color: blue;  
+}
