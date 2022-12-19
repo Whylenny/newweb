@@ -2,13 +2,23 @@ body
 {
  background-color: lightblue;
 }
-.back 
+.next
 {
  position: fixed;
   top: 10;
   right: 10px;
-  width: 20px;
+  width: 30px;
  color: black;
+ background-color: white;
+}
+.back 
+{
+ position: fixed;
+  top: 10;
+  left: 10px;
+  width: 30px;
+ color: black;
+ background-color: white;
 }
 #body2 {
  /*background-image: url("https://i.postimg.cc/sxdw3jRt/IMG-1559.jpg");
