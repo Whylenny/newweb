@@ -15,3 +15,9 @@ function show(pic){
 }
 
 console.log("start");
+document.getElementByID("nutrition").onmouseover = function() {
+  document.getElementById("1nutrition").style.display = "block";
+}
+document.getElementByID("nutrition").onmouseout = function() {
+  document.getElementById("1nutrition").style.display = "none";
+}
