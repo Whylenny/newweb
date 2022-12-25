@@ -47,7 +47,9 @@ img {
   height: auto;
   margin: 3px;
 }
-
+.show {
+  display: none;
+}
 .under {
   text-decoration: underline;
   text-decoration-color: blue;
