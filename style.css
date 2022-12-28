@@ -1,6 +1,9 @@
 body {
   background-color: lightblue;
 }
+.accordian-button {
+  background-color: lightblue;
+}
 .next {
   position: fixed;
   top: 10;
