@@ -1,9 +1,7 @@
 body {
   background-color: lightblue;
 }
-.accordian-button {
-  background-color: lightblue;
-}
+
 .next {
   position: fixed;
   top: 10;
@@ -31,8 +29,7 @@ h1 {
   background-color: lightgreen;
   text-align: center;
 }
-.center {
-}
+
 h2 {
   color: green;
   text-align: center;

@@ -1,6 +1,18 @@
-.accordian-button {
-  background-color: rgb(3, 28, 39);
+.accordion button {
+  font-size: 24px;
 }
-.accordian-header {
-  background-color: rgb(3, 28, 39);
+
+.lenny-bg-blue {
+  background-color: var(--bs-info) !important;
+}
+
+.lenny-bg-blue:hover {
+  color: white;
+}
+.lenny-bg-green {
+  background-color: springgreen !important;
+}
+
+.lenny-bg-green:hover {
+  color: white;
 }
