@@ -2,6 +2,60 @@ body {
   background-color: lightblue;
 }
 
+#lsd-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#lsd-container:hover #lsd-div {
+  display: block;
+}
+
+#six-div {
+  display: none;
+  border: 2px solid black;
+  width: 30%;
+}
+
+#six-container:hover #six-div {
+  display: block;
+}
+
+#now-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#now-container:hover #now-div {
+  display: block;
+}
+
+#clips-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#clips-container:hover #clips-div {
+  display: block;
+}
+#doing-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#doing-container:hover #doing-div {
+  display: block;
+}
+
+#start-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#start-container:hover #start-div {
+  display: block;
+}
+
 .next {
   position: fixed;
   top: 10;
@@ -14,16 +68,11 @@ body {
   position: fixed;
   top: 10;
   left: 10px;
-  width: 30px;
+  width: 60px;
   color: black;
   background-color: white;
 }
-#body2 {
-  /*background-image: url("https://i.postimg.cc/sxdw3jRt/IMG-1559.jpg");
- background-size:100%;
- background-repeat: no-repeat;*/
-  text-align: center;
-}
+
 h1 {
   color: red;
   background-color: lightgreen;
@@ -32,7 +81,7 @@ h1 {
 
 h2 {
   color: green;
-  text-align: center;
+  text-align: left;
 }
 
 li {
@@ -50,5 +99,6 @@ img {
 
 .under {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: rgb(168, 173, 14);
+  color: rgb(168, 173, 14);
 }

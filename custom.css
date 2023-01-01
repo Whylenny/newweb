@@ -16,3 +16,14 @@
 .lenny-bg-green:hover {
   color: white;
 }
+
+.lenny-bg-blue:hover {
+  color: white;
+}
+.lenny-bg-orange {
+  background-color: rgb(191, 234, 51) !important;
+}
+
+.lenny-bg-orange:hover {
+  color: white;
+}
