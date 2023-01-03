@@ -11,6 +11,24 @@ body {
   display: block;
 }
 
+#oxy-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#oxy-container:hover #oxy-div {
+  display: block;
+}
+
+#anti-div {
+  display: none;
+  border: 2px solid black;
+}
+
+#anti-container:hover #anti-div {
+  display: block;
+}
+
 #six-div {
   display: none;
   border: 2px solid black;
