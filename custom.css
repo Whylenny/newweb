@@ -2,6 +2,12 @@
   font-size: 24px;
 }
 
+.lenny-carosel-buttons {
+  background-color: var(--bs-info) !important;
+  position: absolute;
+  top: 6px;
+}
+
 .lenny-bg-blue {
   background-color: var(--bs-info) !important;
 }
