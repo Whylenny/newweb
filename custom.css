@@ -3,7 +3,7 @@
 }
 
 .lenny-carosel-buttons {
-  background-color: var(--bs-info) !important;
+  background-color: var(--bs-danger) !important;
   position: absolute;
   top: 6px;
 }
