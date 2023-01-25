@@ -5,7 +5,7 @@
 .lenny-carosel-buttons {
   background-color: var(--bs-danger) !important;
   position: absolute;
-  top: 6px;
+  top: -36px;
 }
 
 .lenny-bg-blue {
