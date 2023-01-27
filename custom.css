@@ -1,5 +1,38 @@
-.accordion button {
-  font-size: 24px;
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: red;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+h2 {
+  background-color: lightblue;
+  text-align: left;
+}
+
+h3 {
+  background-color: lightblue;
+  text-align: center;
+  color: green;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.under {
+  text-decoration: underline;
+  text-decoration-color: rgb(168, 173, 14);
+  color: rgb(168, 173, 14);
+  cursor: pointer;
+}
+
+.accordion-button {
+  font-size: 18px;
 }
 
 .lenny-carosel-buttons {

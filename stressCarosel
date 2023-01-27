@@ -1,0 +1,70 @@
+<div id="carouselStressCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="https://i.postimg.cc/HnNzmn3J/2022-11-18-11-31-17.png"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://i.postimg.cc/25jrhBv3/2022-11-22-10-43-30.png"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://i.postimg.cc/k540MQDf/2022-11-21-12-31-40.png"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://i.postimg.cc/9XBLFrV2/2022-11-24-15-45-40.png"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://i.postimg.cc/XvksC2Hg/2022-11-18-11-18-40.png"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://i.postimg.cc/k4mLzzNv/2022-11-24-15-52-17.png"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselStressCaptions"
+    data-bs-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon lenny-carosel-buttons"
+      aria-hidden="true"
+    ></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselStressCaptions"
+    data-bs-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon lenny-carosel-buttons"
+      aria-hidden="true"
+    ></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

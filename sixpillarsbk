@@ -340,7 +340,7 @@
             <div class="accordion-item" id="accordionFlushLimits">
               <h2 class="accordion-header" id="flush-headingLimits">
                 <button
-                  class="accordion-button lenny-bg-orange collapsed"
+                  class="accordion-button lenny-bg-green collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseLimits"
@@ -780,7 +780,6 @@
   id="carouselExerciseCaptions"
   class="carousel slide"
   data-bs-ride="carousel"
-  data-interval="3000"
 >
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -859,7 +858,6 @@
   id="carouselSleepCaptions"
   class="carousel slide"
   data-bs-ride="carousel"
-  data-interval="3000"
 >
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -957,84 +955,66 @@
                 data-bs-parent="#accordionFlushAnx"
               >
                 <div class="accordion-body">
-                  <div id="carouselStressCaptions" 
-                  class="carousel slide" 
-                  data-interval="3000"
-                  data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img
-                          src="https://i.postimg.cc/HnNzmn3J/2022-11-18-11-31-17.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="https://i.postimg.cc/25jrhBv3/2022-11-22-10-43-30.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="https://i.postimg.cc/k540MQDf/2022-11-21-12-31-40.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="https://i.postimg.cc/9XBLFrV2/2022-11-24-15-45-40.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="https://i.postimg.cc/XvksC2Hg/2022-11-18-11-18-40.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="https://i.postimg.cc/k4mLzzNv/2022-11-24-15-52-17.png"
-                          class="d-block w-100"
-                          alt="..."
-                        />
-                      </div>
-                    </div>
-                    <button
-                      class="carousel-control-prev"
-                      type="button"
-                      data-bs-target="#carouselStressCaptions"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        class="carousel-control-prev-icon lenny-carosel-buttons"
-                        aria-hidden="true"
-                      ></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                      class="carousel-control-next"
-                      type="button"
-                      data-bs-target="#carouselStressCaptions"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        class="carousel-control-next-icon lenny-carosel-buttons"
-                        aria-hidden="true"
-                      ></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                  
+                  <img
+                    src="https://i.postimg.cc/HnNzmn3J/2022-11-18-11-31-17.png"
+                  />
                 </div>
               </div>
             </div>
-           
+            <!--STOP-->
+            <div class="accordion-item" id="accordionFlushStop">
+              <h2 class="accordion-header" id="flush-headingStop">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseStop"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseStop"
+                >
+                  The STOP technique
+                </button>
+              </h2>
+              <div
+                id="flush-collapseStop"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingStop"
+                data-bs-parent="#accordionFlushStop"
+              >
+                <div class="accordion-body">
+                  <img
+                    src="https://i.postimg.cc/XvksC2Hg/2022-11-18-11-18-40.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--Neutralize Stress-->
+            <div class="accordion-item" id="accordionFlushNeutralize">
+              <h2 class="accordion-header" id="flush-headingNeutralize">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNeutralize"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseNeutralize"
+                >
+                  Neutralize Stress
+                </button>
+              </h2>
+              <div
+                id="flush-collapseNeutralize"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingNeutralize"
+                data-bs-parent="#accordionFlushNeutralize"
+              >
+                <div class="accordion-body">
+                  <img
+                    src="https://i.postimg.cc/k540MQDf/2022-11-21-12-31-40.png"
+                  />
+                </div>
+              </div>
+            </div>
             <!--Happiness Chemicals-->
             <div class="accordion-item" id="accordionFlushHappiness">
               <h2 class="accordion-header" id="flush-headingHappiness">
@@ -1046,7 +1026,7 @@
                   aria-expanded="false"
                   aria-controls="flush-collapseHappiness"
                 >
-                  The Happiness Chemicals
+                  Happiness Chemicals
                 </button>
               </h2>
               <div
@@ -1059,7 +1039,6 @@
                   id="carouselHappinessCaptions"
                   class="carousel slide"
                   data-bs-ride="carousel"
-                  data-interval="3000"
                 >
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -1131,12 +1110,108 @@
                   </button>
                 </div>
                 
-                  
-                  
+                  <img
+                    src="https://i.postimg.cc/SxvsBNjM/F87-AE448-1-B29-4-CD9-A5-C8-0-DFBC6878580.jpg"
+                  />
+                  <img
+                    src="https://i.postimg.cc/fTQ00V8D/2022-11-21-13-28-11.png"
+                  />
+                  <img
+                    src="https://i.postimg.cc/NG1tJFkN/Copy-of-2022-11-21-13-31-29.png"
+                  />
+                  <img
+                    src="https://i.postimg.cc/9F10B7sh/Copy-of-2022-11-21-13-32-18.png"
+                  />
+                  <img
+                    src="https://i.postimg.cc/1zzy57zn/Copy-of-2022-11-21-13-32-54.png"
+                  />
+                  <img
+                    src="https://i.postimg.cc/XvK1mnW9/Copy-of-2022-11-21-13-33-27.png"
+                  />
                 </div>
               </div>
             </div>
-
+            <!--Prevent Anxiety Attack-->
+            <div class="accordion-item" id="accordionFlushPrevent">
+              <h2 class="accordion-header" id="flush-headingPrevent">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsePrevent"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsePrevent"
+                >
+                  How to Prevent an Anxiety Attack
+                </button>
+              </h2>
+              <div
+                id="flush-collapsePrevent"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingPrevent"
+                data-bs-parent="#accordionFlushPrevent"
+              >
+                <div class="accordion-body">
+                  <img
+                    src="https://i.postimg.cc/25jrhBv3/2022-11-22-10-43-30.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--Stop Ruminating-->
+            <div class="accordion-item" id="accordionFlushRuminate">
+              <h2 class="accordion-header" id="flush-headingRuminate">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseRuminate"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseRuminate"
+                >
+                  Stop Ruminating
+                </button>
+              </h2>
+              <div
+                id="flush-collapseRuminate"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingRuminate"
+                data-bs-parent="#accordionFlushRuminate"
+              >
+                <div class="accordion-body">
+                  <img
+                    src="https://i.postimg.cc/9XBLFrV2/2022-11-24-15-45-40.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--Emotional Eating-->
+            <div class="accordion-item" id="accordionFlushEmotional">
+              <h2 class="accordion-header" id="flush-headingEmotional">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEmotional"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEmotional"
+                >
+                  Manage Emotional Eating
+                </button>
+              </h2>
+              <div
+                id="flush-collapseEmotional"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEmotional"
+                data-bs-parent="#accordionFlushEmotional"
+              >
+                <div class="accordion-body">
+                  <img
+                    src="https://i.postimg.cc/k4mLzzNv/2022-11-24-15-52-17.png"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1166,7 +1241,6 @@
             id="carouselSocialCaptions"
             class="carousel slide"
             data-bs-ride="carousel"
-            data-interval="3000"
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -1226,7 +1300,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="flush-headingRsk">
           <button
-            class="accordion-button lenny-bg-bluer collapsed"
+            class="accordion-button lenny-bg-blue collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseRsk"
