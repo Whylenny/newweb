@@ -1,58 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="custom.css" />
+       <title>Document</title>
   </head>
   <body>
-    <!--start now-->
-    <div id="now-div">
-      <img src="https://i.postimg.cc/x1tFdqSh/2022-11-24-15-08-36.png" />
+    <a class="back" href="education.html"><=Back</a>
+    <h1>The Six Pillars</h1>
+    <h3>
+      They all work together as improvements to one will improve the others.
+    </h3>
 
-      Start by creating a daily routine of two or three health promoting
-      activities. On each day you successfully complete the activities award
-      yourself a paper clip and attach it to your
-<!--chain of paperclips-->
-      <span id="clips-container"
-        ><span id="clips-out" class="under"> Chain of Paperclips.</span>
-        
-        <div id="clips-div">
-          <img src="https://i.postimg.cc/GhtQ3fRw/2022-11-30-10-39-28.png" />
 
-          The chain of paperclips will be a daily reminder that
-          <span id="doing-container">
-            <span id="doing-out" class="under"> you are doing something</span>
-
-            <div id="doing-div">
-          to improve your heath.
-      
     
-    <!--you're doing something-->
-    <div>
-      <img src="https://i.postimg.cc/CxGnCfKr/2022-11-24-15-25-47.png" />
-     
-        If you miss a day don't start over. Just keep building your chain of
-        positive days. Select two or three
-        <!--starting activities-->
-        You can <span id="start-container">
-          <span id="start-out" class="under"> starting activities</span>
-  
-          <div id="start-div">
-  
-            <img src="https://i.postimg.cc/KjvNpkbH/2022-12-01-11-17-24.png" />
-  
-  
-            <br /><br /></div></span>
-
-         that you feel
-        confident you can complete.
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <!--Nutrition-->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingNut">
+          <button
+            class="accordion-button lenny-bg-blue collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseNut"
+            aria-expanded="false"
+            aria-controls="flush-collapseNut"
+          >
+            Health Promoting Nutrition
+          </button>
+        </h2>
+        <div
+          id="flush-collapseNut"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingNut"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <!--Fiber-->
+            <h2
+            <div class="accordion-item" id="accordionFlushFiber">
+              <h2 class="accordion-header" id="flush-headingFiber">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFiber"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFiber"
+                >
+                  Fiber is the new Protein
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFiber"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFiber"
+                data-bs-parent="#accordionFlushFiber"
+              >
+                <div class="accordion-body">
+                  If you're worried about protein, understand that vegetables have more protein per calorie than meats. <br><br>
+                  <h1>Eat More Fiber</h1>
+                  There are very few cases of protein deficiency (kwashiorkor)
+                  but over 90% of Americans are not getting enough fiber. The
+                  minimum recommended amount is 25 - 30 grams but the average
+                  American is eating only 15 grams. <br /><br />The fiber is
+                  actually not digestible! In fact it is food for the microbiome
+                  - the microbes that live in the large intestine. In exchange
+                  for providing them fiber they provide us many health benefits.
+                  They are the main source of serotonin (the happiness
+                  neurotransmitter). They replace the harmful omega 6 oils with the beneficial omega 3 oils. <br /><br /><img
+                    src="https://i.postimg.cc/SNnGT3dW/2023-01-08-15-23-29.png"
+                    src="https://i.postimg.cc/bw31sZWN/IMG-2240.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--Carbo-->
+            <div class="accordion-item" id="accordionFlushCarbo">
+              <h2 class="accordion-header" id="flush-headingCarbo">
+                <button
+                  class="accordion-button lenny-bg-green collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseCarbo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseCarbo"
+                >
+                  Complex Carbohydrates
+                </button>
+              </h2>
+              <div
+                id="flush-collapseCarbo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingCarbo"
+                data-bs-parent="#accordionFlushCarbo"
+              >
+                <div class="accordion-body">
+                  <h1>Get complex carbohydrates</h1>
+                  <img
+                    src="https://i.postimg.cc/nhPLJzDV/2022-12-21-15-29-40.png"
+                  />
+                </div>
+              </div>
+            </div>
+           
+            </div>
+          </div>
+        </div>
       </div>
-    </div> </span>
+ 
     </div>
+    <br /><br />
+
     
-    <script src="../script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>

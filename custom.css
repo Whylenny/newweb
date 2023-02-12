@@ -8,6 +8,10 @@ h1 {
   text-align: center;
 }
 
+#details-wrap {
+  display: center;
+}
+
 h2 {
   background-color: lightblue;
   text-align: left;
@@ -48,6 +52,7 @@ img {
 .lenny-bg-blue:hover {
   color: white;
 }
+
 .lenny-bg-green {
   background-color: springgreen !important;
 }
